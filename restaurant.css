@@ -1,0 +1,278 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:black;
+}
+.nav{
+    max-width:100%;
+    height:50px;
+    color:beige;
+    display:flex;
+    justify-content: space-between;
+}
+#title{
+padding:5px;
+}
+.features{
+margin-top:14px;
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+gap:30px;
+cursor: pointer;}
+#list{
+    transition: all 1s linear;
+    font: 10px;
+}
+#list:hover{
+text-decoration: underline;
+text-decoration-color:red;
+text-decoration-thickness:1.5px;
+}
+.body {
+    max-width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    background-image: url('food.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    transition:all 1s linear; 
+}
+.body h1 {
+    margin: 0;
+    padding: 10px;
+    color: beige;
+    background: none;
+    position: relative;
+    right:390px;
+    bottom:50px;
+}
+#logo{
+    opacity:0;
+    transition:all 1s linear;
+}
+.menu {
+    margin-top:26px;
+    max-width: 100%;
+    height: 320px;
+    display: grid;
+    grid-template-columns:auto auto  auto;
+    gap:60px;
+    padding:20px;
+}
+.veg {
+    height: 100%;
+    width: 220px;
+    background-image:url('naan.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    display: flex;
+    flex-direction: column-reverse;
+    transition:transform 1s linear;
+}
+#vegitarian{
+    width:100%;
+    height:40px;
+    background-color:white;
+    text-align: center;
+    font-size:30px;
+}
+.veg:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+.non-veg{
+height: 100%;
+width:220px;
+background-image:url('non-veg.jpg');
+background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+display: flex;
+flex-direction: column-reverse;
+transition:transform 1s linear;
+}
+#nonvegitarian{
+width:100%;
+height:40px;
+background-color:white;
+text-align: center;
+font-size:30px;
+}
+.non-veg:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+   .vegan{
+    height: 100%;
+    width:220px;
+    background-image:url('veg.jpg');
+    background-repeat:no-repeat;
+background-position:center;
+background-size:cover;
+display: flex;
+flex-direction: column-reverse;
+transition:transform 1s linear;
+}     
+#veganism{
+    width:100%;
+height:40px;
+background-color:white;
+text-align: center;
+font-size:30px;
+}
+.vegan:hover{
+    cursor: pointer;
+    transform:scale(1.2);
+}
+.special{
+    margin-top:33px;
+    max-width:100%;
+    height:350px;
+    margin-top:15px;
+    color:white;
+}
+#question{
+    text-align:center;
+    position:relative;
+    top:20px;
+}
+#maincourse{
+    text-align:center;
+    margin-top:80px;
+}
+#order,#book{
+    background-color:#BC1EE3;
+    color:white;
+    cursor:pointer;
+    padding:12px 15px;
+    border:none;
+    border-radius:6px;
+    position:relative;
+    left:565px;
+    top:100px;
+ }
+ #order:hover{
+    background-color:#1E33E3;
+ }
+#book:hover{
+    background-color:#1E33E3;
+}
+.branches{
+    margin-top:15px;
+    max-width:100%;
+    height:450px;
+    color:white;
+    overflow-x: hidden;
+}
+.branches::-webkit-scrollbar{
+    display:none;
+}
+#branchtitle{
+    text-align: center;
+    margin-top:60px;
+}
+#branchtitlespan{
+position: relative;
+left:19px;
+}
+.india{
+    list-style: none;
+    position: relative;
+    left:100px;
+    top:50px;
+    font-weight: bolder;
+    font-size:22px;
+}
+.india li{
+    padding-bottom:20px;
+}
+.world{
+    list-style: none;
+    position: relative;
+    left:1110px;
+    bottom:240px;
+    font-weight: bolder;
+    font-size:22px;
+}
+.world li{
+    padding-bottom:20px;
+}
+.discount{
+    margin-top:20px;
+    max-width:100%;
+    height:400px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+#Bookaseat{
+    background-color: #BC1EE3;
+    padding:10px 15px;
+    color:white;
+    border:none;
+}
+#Bookaseat:hover{
+    background-color: #1E33E3;
+    cursor: pointer;
+}
+#orderonline{
+    background-color: #BC1EE3;
+    padding:10px 15px;
+    color:white;
+    border:none;
+}
+#orderonline:hover{
+    background-color: #1E33E3;
+    cursor: pointer;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0;
+}
+.socials {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socials li {
+    display: inline;
+}
+.socials a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.socials a:hover {
+    color: #00aced;
+}
+
